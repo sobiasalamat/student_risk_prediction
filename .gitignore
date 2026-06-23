@@ -1,0 +1,61 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# ========================
+# Django
+# ========================
+db.sqlite3
+media/
+staticfiles/
+
+# Django secret settings (if you use .env)
+.env
+*.env
+
+# Migrations (optional - only if you want clean repo)
+# Uncomment if needed
+# **/migrations/*.py
+# !**/migrations/__init__.py
+
+# ========================
+# PyCharm
+# ========================
+.idea/
+*.iml
+out/
+
+# ========================
+# VS Code (if used)
+# ========================
+.vscode/
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Jupyter Notebook
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+# ML / Model files (optional)
+# ========================
+*.pkl
+*.joblib
+models/
